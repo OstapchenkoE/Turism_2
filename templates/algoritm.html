@@ -1,0 +1,33 @@
+{%extends 'basa.html'%}
+
+{%block title%}Алгоритм {%endblock%}
+
+{%block body%}
+<center>
+
+
+<h1>Создание пути</h1>
+
+    <form method="post">
+        <p>
+        <div class="input-group input-group-lg">
+        <span class="input-group-text" id="inputGroup-sizing-lg">Объект</span>
+        <input name="name" class="form-control" type="text" aria-describedby="inputGroup-sizing-sm"  placeholder="Введите название объекта">
+        </div></p>
+        <p>
+        <div class="input-group input-group-lg">
+        <span class="input-group-text" id="inputGroup-sizing-lg">Количество</span>
+        <input name="kol" class="form-control" placeholder="Введите количество объектов">
+        </div>
+        </p>
+        <input type="submit" target="_blank" class="btn btn-primary btn-lg btn-block" value="Построить">
+    </form>
+
+    <iframe src="https://cdn-icons-png.flaticon.com/512/149/149054.png" width="1200" height="600" align="center"></iframe>
+</center>
+
+
+    
+    
+
+{%endblock%}
